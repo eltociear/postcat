@@ -17,10 +17,9 @@
     "!**/*.ts"
   ],
   "publish": [
-    "github",
     {
       "provider": "generic",
-      "url": "https://packages.postcat.com"
+      "url": "https://packages.eoapi.eolink.com/latest"
     }
   ],
   "afterPack": "./scripts/afterPackHook.js",
